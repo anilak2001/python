@@ -1,0 +1,54 @@
+
+principle=int(input("Enter the Amount"))
+
+Year=int(input("Enter the year"))
+
+rate=int(input("Enter the rate"))
+
+def Simple(p,n,r):
+
+    interest=(p*n*r)/100
+
+    print("Interest is",interest)
+
+Simple(principle,Year,rate)#Simple(1000,2,3)
+ star 1
+
+EX:--
+
+----
+
+age=int(input("Enter the age"))#27
+
+def Vote(a):#a=27
+
+    if(a>=18):
+
+        print("Eligible for voting")
+
+    else:
+
+        print("Not Eligible for voting")
+
+Vote(age)#Vote(27)
+ 
+ 
+EX:
+
+---
+
+a=int(input("Enter the value"))
+
+name=input("Enter the Name")
+
+if(a>=18):
+
+    print("Eligible for voting")
+
+else:
+
+    print("Not Eligible for voting")
+
+    if(name=="user1"):
+
+        print("Name is",name)
